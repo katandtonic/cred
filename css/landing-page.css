@@ -1,0 +1,318 @@
+header.masthead {
+  position: relative;
+  background-color: #fefefe;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@media (min-width: 768px) {
+  header.masthead {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .small-hero-wrapper {
+    padding-top: 0rem;
+    padding-bottom: 5rem;
+	padding-left: 4rem;
+	padding-right: 4rem;
+	background-color: #ffd600;
+  }
+}
+
+.top-padding {
+	padding-top: 15%;
+	left-padding: 15%
+}
+
+.navbar-name {
+	color: #ffd600;
+	font-weight: 800;
+	font-size: 35px;
+}
+
+h1 {
+    font-size: 2.425rem;
+    letter-spacing: -1px;
+	line-height: 150%;
+}
+
+.container {
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0a0a0a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: myFirstFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 500;
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+li, p, .btn {
+	font-family: myFirstFont, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+p {
+	font-size: 16px;
+	font-weight: 100;
+}
+
+h1.masthead {
+	font-size: 3.5rem;
+    letter-spacing: -1px;
+	text-align: left;
+	margin-bottom: 1rem;
+	font-family: myFirstFontBold;
+}
+
+p.masthead {
+	color: #414042;
+	text-align: left;
+	font-size: 1.2rem;
+	padding-bottom: 2rem;
+	max-width: 70%;
+}
+
+
+.row {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.container-title {
+	display: inline-block;
+}
+
+p.blk-font-color {
+	color:  #0a0a0a;
+}
+
+p.align-left {
+	text-align: left;
+}
+
+@media (min-width: 768px) {
+	.how-it-works {
+		padding-top: 7rem;
+		padding-bottom: 7rem;
+		padding-right: 5rem;
+		padding-left: 5rem;
+		position=relative;
+		background-color: white;
+	}
+}
+
+.flex-column {
+    flex-direction: column!important;
+}
+
+.d-flex {
+    display: flex!important;
+}
+
+.small-hero-wrapper {
+	background-color: #ffd600;
+	padding-left: 15rem;
+	padding-right: 15rem;
+	padding-top: 5rem;tat
+	padding-bottom: 5rem;
+	border-color: white;
+	font-size: 1rem;
+}
+
+.end-container {
+	background-color: #ffd600;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+	width: 100%;
+}
+
+
+#end-wrapper {
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-bottom: 6rem;
+}
+
+.blog-container {
+	margin: 3rem 5rem;
+	border-color: black;
+	border-style: solid;
+	border-width: .01rem;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url("../fonts/circular-std-book/CircularStd-Book.otf");
+}
+
+@font-face {
+    font-family: myFirstFontBold;
+    src: url("../fonts/circular-std-book/CircularStd-Bold.otf");
+}
+
+@media (min-width: 768px) {
+	.terms-container {
+		padding-left: 3rem;
+		padding-right:3rem;
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+	background-color: #f4fafd;
+}
+
+.btn-sample {
+  color: #000000;
+  background-color: #FFD600;
+  border-color: #FFD600;
+}
+
+.btn-sample:hover,
+.btn-sample:focus,
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  color: #000000;
+  background-color: #BDB177;
+  border-color: #FFD600;
+}
+
+.btn-sample:active,
+.btn-sample.active,
+.open .dropdown-toggle.btn-sample {
+  background-image: none;
+}
+
+.btn-sample.disabled,
+.btn-sample[disabled],
+fieldset[disabled] .btn-sample,
+.btn-sample.disabled:hover,
+.btn-sample[disabled]:hover,
+fieldset[disabled] .btn-sample:hover,
+.btn-sample.disabled:focus,
+.btn-sample[disabled]:focus,
+fieldset[disabled] .btn-sample:focus,
+.btn-sample.disabled:active,
+.btn-sample[disabled]:active,
+fieldset[disabled] .btn-sample:active,
+.btn-sample.disabled.active,
+.btn-sample[disabled].active,
+fieldset[disabled] .btn-sample.active {
+  background-color: #FFD600;
+  border-color: #FFD600;
+}
+
+.btn-sample .badge {
+  color: #FFD600;
+  background-color: #000000;
+}
+
+.btn-ex-lg {
+    padding: .75rem 2rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+.btn-ex-ex-lg {
+    padding: .75rem 3rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    border-radius: .3rem;
+}
+
+
+p.large {
+    font-size: 22px;
+    line-height: 32px;
+	font-weight: 100;
+}
+
+.blog-text {
+	padding: 5rem 5rem 5rem 5rem;
+}
+
+.blog-img {
+	padding: 0rem;
+	margin: 0rem;
+}
+
+h2.blog-title {
+	font-size: 40px;
+	padding-bottom: 1rem;
+}
+
+p.blog-tags {
+	color: #03B010;
+	font: myFirstFontBold;
+	font-weight: 900;
+	font-size: 14px;
+}
+
+.terms-container {
+	padding: 0rem 5rem 2rem 5rem;
+}
+
+
+.btn-green { 
+  color: #ffffff; 
+  background-color: #2BB656; 
+  border-color: #2BB656; 
+} 
+ 
+.btn-green:hover, 
+.btn-green:focus, 
+.btn-green:active, 
+.btn-green.active, 
+.open .dropdown-toggle.btn-green { 
+  color: #ffffff; 
+  background-color: #336141; 
+  border-color: #2BB656; 
+} 
+ 
+.btn-green:active, 
+.btn-green.active, 
+.open .dropdown-toggle.btn-green { 
+  background-image: none; 
+} 
+ 
+.btn-green.disabled, 
+.btn-green[disabled], 
+fieldset[disabled] .btn-green, 
+.btn-green.disabled:hover, 
+.btn-green[disabled]:hover, 
+fieldset[disabled] .btn-green:hover, 
+.btn-green.disabled:focus, 
+.btn-green[disabled]:focus, 
+fieldset[disabled] .btn-green:focus, 
+.btn-green.disabled:active, 
+.btn-green[disabled]:active, 
+fieldset[disabled] .btn-green:active, 
+.btn-green.disabled.active, 
+.btn-green[disabled].active, 
+fieldset[disabled] .btn-green.active { 
+  background-color: #2BB656; 
+  border-color: #2BB656; 
+}
+
+.btn-green .badge {
+  color: #2BB656;
+  background-color: #ffffff;
+}
